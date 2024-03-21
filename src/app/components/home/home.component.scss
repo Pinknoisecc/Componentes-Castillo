@@ -1,0 +1,21 @@
+//Logo central
+.center-and-animate {
+    display: block;
+    margin: 0 auto;
+    animation: moveUpDown 5s infinite alternate;
+    margin-top: 5%;
+    -webkit-animation: moveUpDown 1.5s infinite alternate;
+}
+
+.h1-home{
+    margin-top: 10%;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(10px); 
+    }
+}
