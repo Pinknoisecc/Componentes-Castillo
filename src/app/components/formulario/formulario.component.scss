@@ -1,0 +1,72 @@
+// formulario-castillo.component.scss
+
+// Estilos generales del formulario
+// formulario-castillo.component.scss
+
+// Estilos para el contenedor del formulario
+// formulario-castillo.component.scss
+
+// Estilos para el formulario
+form {
+    margin-top: 50px; // Espacio en la parte superior del formulario
+    border-radius: 10px; // Bordes redondeados
+    padding: 20px; // Espaciado interno
+    background-color: #f9f9f9; // Color de fondo del formulario
+
+    // Borde con degradado de color
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0), rgb(0, 255, 0));
+    border-image-slice: 1;
+}
+
+
+  // Estilos para los campos de entrada
+.input-group {
+    margin-bottom: 20px; // Espacio entre los campos
+}
+
+  // Estilos para las etiquetas de los campos
+.form-label {
+    font-weight: bold;
+}
+
+  // Estilos para los mensajes de error
+.text-danger {
+    color: red;
+    font-size: 14px;
+}
+
+  // Estilos para el botón de enviar
+.btn-primary {
+    background-color: #007bff; // Color de fondo azul
+    border-color: #007bff; // Color del borde azul
+    color: #fff; // Color del texto blanco
+    padding: 10px 20px; // Espaciado interno
+    border-radius: 5px; // Bordes redondeados
+    transition: all 0.3s ease; // Transición suave
+
+    &:hover {
+      background-color: #0056b3; // Color de fondo más oscuro al pasar el ratón
+      border-color: #0056b3; // Color del borde más oscuro al pasar el ratón
+    }
+}
+
+  // Estilos para la clase de éxito
+.is-valid {
+    border-color: #28a745 !important; // Color del borde verde
+}
+
+  // Estilos para la clase de error
+.is-invalid {
+    border-color: #dc3545 !important; // Color del borde rojo
+}
+
+  // Estilos para el mensaje de éxito
+.valid-feedback {
+    color: #28a745; // Color del texto verde
+}
+
+  // Estilos para el mensaje de error
+.invalid-feedback {
+    color: #dc3545; // Color del texto rojo
+}
